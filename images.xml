@@ -1,0 +1,65 @@
+<collection>
+  <image>
+    <title>A Sunday Afternoon</title>
+    <artist>Georges-Pierre Seurat</artist>
+    <year>1884</year>
+    <type>painting</type>
+    <fileName>sundayAfternoon.jpg</fileName>
+  </image>
+  <image>
+    <title>Starry Night</title>
+    <artist>Vincent Van Gogh</artist>
+    <year>1889</year>
+    <type>painting</type>
+    <fileName>starryNight.jpg</fileName>
+  </image>
+  <image>
+    <title>Night Hawks</title>
+    <artist>Edward Hopper</artist>
+    <year>1942</year>
+    <type>painting</type>
+    <fileName>lateNight.jpg</fileName>
+  </image>
+  <image>
+    <title>Sunflowers</title>
+    <artist>Vincent Van Gogh</artist>
+    <year>1888</year>
+    <type>painting</type>
+    <fileName>sunflowers.jpg</fileName>
+  </image> 
+  <image>
+    <title>Mona Lisa</title>
+    <artist>Leonardo da Vinci</artist>
+    <year>1503</year>
+    <type>painting</type>
+    <fileName>mona.jpg</fileName>
+  </image> 
+  <image>
+    <title>The Scream</title>
+    <artist>Edvard Munch</artist>
+    <year>1893</year>
+    <type>painting</type>
+    <fileName>scream.jpg</fileName>
+  </image> 
+  <image>
+    <title>The Night Café </title>
+    <artist>Vincent Van Gogh</artist>
+    <year>1888</year>
+    <type>painting</type>
+    <fileName>VanGogh_1888.jpg</fileName>
+  </image>
+  <image>
+    <title>Bedroom in Arles </title>
+    <artist>Vincent Van Gogh</artist>
+    <year>1888</year>
+    <type>painting</type>
+    <fileName>bedroom.jpg</fileName>
+  </image>
+  <image>
+    <title>HSV Spectrum </title>
+    <artist>Ozgur Izmirli</artist>
+    <year>2016</year>
+    <type>Image</type>
+    <fileName>hsv.jpg</fileName>
+  </image>    
+</collection>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Image Filtering </title>
+	<link rel="stylesheet" href="imageFilter.css">
+</head>
+
+<body onload="atStart()">
+	<div class="banner">
+		<p>COM214 - Multiple Image Filters</p>
+	</div>
+
+	<div class="panel">
+		<div class="block one">
+			<div class="slider">
+				<p id="strfilter">Filter 1</p>
+				<input type="checkbox" id="cb1"> &nbsp; &nbsp;
+				<input type="range" id="myslider" min="0" max="1" value="0.5" step=".01" oninput='setSliderVal1(this.value)' />
+			</div>
+
+			<canvas id="myCanvas1" width="160" height="156" style="border:1px solid #BBBBBB;" class="canvas">
+				Your browser does not support the canvas element.
+			</canvas>
+		</div>
+
+		<div class="block two">
+			<div class="slider">
+				<p id="strfilter">Filter 2</p>
+				<input type="checkbox" id="cb2"> &nbsp; &nbsp;
+				<input type="range" id="myslider" min="0" max="1" value="0.5" step=".01" oninput='setSliderVal2(this.value)' />
+			</div>
+
+			<canvas id="myCanvas2" width="160" height="156" style="border:1px solid #BBBBBB;" class="canvas">
+				Your browser does not support the canvas element.
+			</canvas>
+		</div>
+
+		<div class="block three">
+			<div class="slider">
+				<p id="strfilter">Filter 3</p>
+				<input type="checkbox" id="cb3"> &nbsp; &nbsp;
+				<input type="range" id="myslider" min="0" max="1" value="0.5" step=".01" oninput='setSliderVal3(this.value)' />
+			</div>
+
+			<canvas id="myCanvas3" width="160" height="156" style="border:1px solid #BBBBBB;" class="canvas">
+				Your browser does not support the canvas element.
+			</canvas>
+		</div>
+
+		<div class="block four">
+			<div class="sliderblock">
+				<div class="slider">
+					<p id="strfilter">Filter Range</p>
+					<input type="range" id="myslider" min="0.01" max=".21" value="0.11" step=".02" oninput='setStepVal(this.value)' />
+				</div>
+			</div>
+
+			<div class="imageblock">
+				<div id="myimage" class="image">
+					<p id="imageText">Image</p>
+		        	<select id="imageChooser" onchange="drawImage(true)">Could not retrieve images titles</select>
+		        	<button type="button" id="imageButton" onClick="drawFilteredImg()">-- Filter --</button> 
+				</div>
+			</div>
+		</div>
+	</div>	
+
+
+	<div class="imagePanel">
+		<div class="sourcePanel" >
+			<canvas id="sourceCanvas" width="400" height="375" style="border:1px solid #BBBBBB;" class="canvas1">
+				Your browser does not support the canvas element.
+				<canvas id="bootleg"></canvas>
+			</canvas>
+			<!-- <canvas id="bootleg"></canvas> -->
+		</div>
+
+		<div class="outputPanel">
+			<canvas id="outputCanvas" width="400" height="375" style="border:1px solid #BBBBBB;" class="canvas1">
+				Your browser does not support the canvas element.
+			</canvas>
+		</div>
+	</div>
+	<script src="imageFilter.js"></script>
+</body>
+
+
+
+</html>
